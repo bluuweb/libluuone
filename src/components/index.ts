@@ -1,4 +1,4 @@
 import PButton from "./PButton";
+import PButtonV2 from "./PButtonV2";
 
-export { PButton };
-export default PButton;
+export { PButton, PButtonV2 };
