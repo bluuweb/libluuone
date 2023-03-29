@@ -34,12 +34,8 @@ export default function PButton({ children, className }: PButtonProps) {
       })
     : [];
 
-  console.log(clientClass);
-
-  console.log(Object.values(basesClass).join(' '));
-
   const classes =
     Object.values(basesClass).join(' ') + ' ' + clientClass.join(' ');
 
-  return <button className={classes}>{children}</button>;
+  return <button className={`${classes}`}>{children}</button>;
 }
